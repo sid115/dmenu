@@ -17,10 +17,10 @@ static const char *colors[SchemeLast][2] = {
 	/*                        fg          bg         */
 	[SchemeNorm]          = { d_white,    background },
 	[SchemeSel]           = { d_white,    d_black },
-	[SchemeSelHighlight]  = { d_blue,     d_black },
-	[SchemeNormHighlight] = { d_blue,     background },
 	[SchemeOut]           = { background, d_blue },
     [SchemeBorder]        = { d_blue,     NULL },
+	[SchemeNormHighlight] = { d_blue,     background },
+	[SchemeSelHighlight]  = { d_blue,     d_black },
 };
 
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
